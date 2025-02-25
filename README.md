@@ -1,59 +1,69 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## Smart Network Congestion and Anomaly Analytics using Machine Learning
+
+This project is to develop an intelligent Network Anomaly Detection and Congestion Prediction System that leverages machine learning techniques to enhance network security and performance. By analyzing real-time network traffic data, the system aims to identify abnormal patterns, predict congestion, and provide actionable insights through an interactive visualization dashboard .
+
+
 
 ## About
 <!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+Network anomaly detection is important for keeping systems safe and making sure the network runs well. Organizations can spot unusual trends in network traffic to stop cyber threats like DDoS attacks and data breaches, helping to keep services reliable. This project looks at using machine learning to automatically find unusual activity and predict network slowdowns by analyzing data in real-time.
+
 
 ## Features
 <!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
+- Accurate Anomaly Detection
+- Predictive Congestion Analysis 
 - High scalability.
 - Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+- Comprehensive Data Visualization
 
 ## Requirements
 <!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
+* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with machine learning frameworks.
+* Development Environment: Python 3.6 or later is necessary for coding the smart network congestion detection system.
+* Machine Learning Frameworks: Isolationforest for Network Anomaly, Long Short Term Memory for Congestion Prediction.
+* Web Framework: Streamlit/Flask/FastAPI.
 * Version Control: Implementation of Git for collaborative development and effective code management.
 * IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+* Libraries: Includes scikit-learn, Pandas and NumPy, Plotly and Matplotlib.
 
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+![image](https://github.com/user-attachments/assets/fb94c700-35f9-42b9-9184-c21337d015b6)
+
 
 
 ## Output
 
 <!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output1 - Anomaly Detection results
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+![image](https://github.com/user-attachments/assets/c7f8a268-a861-40ea-80f4-bb3da78aaf48)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+#### Output2 - Congestion Prediction results
+![image](https://github.com/user-attachments/assets/dc97cc15-00b3-4042-a852-051763446b9c)
+
+
+Detection Accuracy: 90.7%
+
 
 
 ## Results and Impact
 <!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+The Network Anomaly Detection & Congestion Prediction System effectively identifies abnormal traffic patterns and predicts potential network congestion using machine learning techniques. By leveraging Isolation Forest for anomaly detection and LSTM for congestion prediction, the system enhances network security and performance.![image]
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
-
-## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+This approach improves network reliability, minimizes downtime, and enhances decision-making for IT professionals managing large-scale infrastructures.
 
 
+## References
+1. P. Kisanga, I. Woungang, I. Traore and G. H. S. Carvalho, "Network Anomaly Detection Using a Graph Neural Network," 2023 International Conference on Computing, Networking and Communications (ICNC), Honolulu, HI, USA, 2023, pp. 61-65, doi: 10.1109/ICNC57223.2023.10074111.
 
+2. Z. Shi, J. Li, C. Wu and J. Li, "DeepWindow: An Efficient Method for Online Network Traffic Anomaly Detection," 2019 IEEE 21st International Conference on High Performance Computing and Communications; IEEE 17th International Conference on Smart City; IEEE 5th International Conference on Data Science and Systems (HPCC/SmartCity/DSS), Zhangjiajie, China, 2019, pp. 2403-2408, doi: 10.1109/HPCC/SmartCity/DSS.2019.00335.
 
+3. K. Qin, Y. Zhou, B. Tian and R. Wang, "AttentionAE: Autoencoder for Anomaly Detection in Attributed Networks," 2021 International Conference on Networking and Network Applications (NaNA), Lijiang City, China, 2021, pp. 480-484, doi: 10.1109/NaNA53684.2021.00089.
+
+4. Y. Zhang et al., "Automating Rapid Network Anomaly Detection With In-Band Network Telemetry," in IEEE Networking Letters, vol. 4, no. 1, pp. 39-42, March 2022, doi: 10.1109/LNET.2021.3130573.
+
+5. V. B. Mendiratta and M. Thottan, "Rich Network Anomaly Detection Using Multivariate Data," 2017 IEEE International Symposium on Software Reliability Engineering Workshops (ISSREW), Toulouse, France, 2017, pp. 48-51, doi: 10.1109/ISSREW.2017.36.
